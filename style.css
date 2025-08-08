@@ -158,7 +158,25 @@ a.button {
 }
 
 .call {
+    display: flex;
+    background-color:#3882f6;
+    margin: 130px 300px;
+    padding: 30px 50px 30px 50px;
+    border-radius: 8px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.call .call-to-action {
     color: #e5e7eb;
+}
+#action {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call .button {
+    border: 2px solid #ffffff;
 }
 
 .footer {
