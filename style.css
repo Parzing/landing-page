@@ -1,0 +1,35 @@
+body {
+    font-family: "Roboto", "Hero", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    background-color: #1f2937;
+    flex: 0;
+}
+
+.sign-up {
+    background-color: #1f2937;
+}
+
+.information {
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.call {
+    color: #e5e7eb;
+}
+
+.footer {
+    color: #f9faf8;
+}
